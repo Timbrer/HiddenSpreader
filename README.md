@@ -8,7 +8,7 @@ This python3 code is a demo for the paper **Identify COVID-19 Hidden Spreaders o
 pip install -r requirements.txt
 ```
 
-## Simulate COVID-19 Spreading
+## Simulate COVID-19 spreading
 
 ```
 python generate.py
