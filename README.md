@@ -22,4 +22,4 @@ The spreaing parameters can be changed in `model.py`.
 python rank.py
 ```
 
-The result can be shown in `out.txt` where the first column is the index of nodes, the second column is the theoretical possibility of infection, the third column is a bool value to show if the node is infected in the simulation. In addition, a visualization of the network show the risk of infection from low-risk nodes (in green) to high-risk nodes (in red).
+The result can be shown in `out.txt` where the first column is the index of nodes, the second column is the theoretical possibility of infection, the third column is a bool value to show if the node is infected in the simulation. In addition, a visualization of the network shows the risk of infection from low-risk nodes (in green) to high-risk nodes (in red).
