@@ -1,6 +1,6 @@
 # Identify COVID-19 Hidden Spreaders over Contact Tracing Networks
 
-This python3 code is a demo for the paper **Identify COVID-19 Hidden Spreaders over Contact Tracing Networks**. In this demo, a spreading of COVID-19 can be simulated on an real-world network "[INFECTIOUS: STAY AWAY](http://konect.cc/networks/sociopatterns-infectious/)". Based on the symptomatic infections, the infection risk of other nodes can be ranked using the proposed method.
+This python3 code is a demo for the paper **Identify COVID-19 Hidden Spreaders over Contact Tracing Networks**. In this demo, a spreading of COVID-19 can be simulated on an real-world network "[INFECTIOUS: STAY AWAY](http://konect.cc/networks/sociopatterns-infectious/)". Based on the symptomatic infections, the infection risk of other nodes can be ranked using the proposed method. Besides, 2 real contact treacing networks of COVID-19 in Singapore are provided.
 
 ## Install required packages
 
