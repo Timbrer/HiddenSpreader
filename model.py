@@ -4,7 +4,7 @@ import copy
 import math
 import scipy.stats as stats    
 
-data = ['infectious']
+data = ['infectious','univeristy_email']
 zero = 5                     # Number of zero infections 
 k = 13.49                    # Average degree                                                  
 R0 = 3.5                     # Reproduction number
