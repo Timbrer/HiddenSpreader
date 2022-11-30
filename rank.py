@@ -5,6 +5,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from model import get_data,get_status,stat,statA,data,a,d,T as ori_T,p
 
+data_idx = 0
 beta = a+d
 T = ori_T
 
@@ -64,7 +65,7 @@ def simulate_spread(state,G,idx_train,nodes):
 	return state
 	
 	
-G,status = get_data(data[0])
+G,status = get_data(data[data_idx])
 idx_train = load_data(status)
 
 nodes = set(list(G.keys()))-idx_train
@@ -100,7 +101,7 @@ for i in temp_ans:
 			
 fileobj.close()
 
-edges = np.genfromtxt("./data/"+data[0], dtype=np.int32)[:,0:2]
+edges = np.genfromtxt("./data/"+data[data_idx], dtype=np.int32)[:,0:2]
 G=nx.Graph()
 G.add_edges_from(list(edges))
 pos = nx.spring_layout(G)

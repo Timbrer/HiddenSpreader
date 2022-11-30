@@ -3,7 +3,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from model import get_data,spread,stat,statA,get_out,data,T,zero,p,inc_period,asym_period,a,d
 
-G,status = get_data(data[0])
+data_idx = 0
+G,status = get_data(data[data_idx])
 
 history = dict(zip(G.keys(), [[-1,-1,-1] for i in range(1,len(G)+1)]))
 origin = np.random.randint(1,len(G),zero)
